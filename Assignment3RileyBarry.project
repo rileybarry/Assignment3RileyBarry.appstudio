@@ -22,6 +22,14 @@
           "!type": "External",
           "file": [
             "forms",
+            "dogStore",
+            "dogStore.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
             "cityWhile",
             "cityWhile.json"
           ]
