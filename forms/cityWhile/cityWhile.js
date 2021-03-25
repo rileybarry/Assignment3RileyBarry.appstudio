@@ -1,3 +1,4 @@
+/*
 let cities = []
 let inp = ''
 
@@ -16,3 +17,4 @@ while (i > -1) {
   console.log(cities[i])
   i -= 1
 }
+*/
