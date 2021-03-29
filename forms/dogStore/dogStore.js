@@ -12,7 +12,8 @@ dogStore.onshow=function() {
 let wishList = []
 
 btnPet.onclick=function(){
-  wishList = wishList.push(inpPet.value)
+  let petInpt = inpPet.value
+  wishList.push(petInpt)
   let len2 = wishList.length
   for(i = 0; i < len2; i ++){
    lblTwo.value = `${lblTwo.value} ${wishList[i]}\n`
