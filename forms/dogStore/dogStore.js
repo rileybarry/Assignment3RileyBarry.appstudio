@@ -16,6 +16,7 @@ btnPet.onclick=function(){
   wishList.push(petInpt)
   let len2 = wishList.length
   for(i = 0; i < len2; i ++){
-   lblTwo.value = `${lblTwo.value} ${wishList[i]}\n`
+    lblTwo.value = `${wishList}\n`
+   //lblTwo.value = `${lblTwo.value} ${wishList[i]}\n`
    }
 }
