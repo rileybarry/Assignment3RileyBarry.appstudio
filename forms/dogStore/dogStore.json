@@ -16,7 +16,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Button1.json"
+        "btnPet.json"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "forms",
         "dogStore",
         "Elements",
-        "Input1.json"
+        "inpPet.json"
       ]
     },
     {
@@ -34,7 +34,16 @@
         "forms",
         "dogStore",
         "Elements",
-        "Label1.json"
+        "lblList.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dogStore",
+        "Elements",
+        "lblTwo.json"
       ]
     }
   ],
@@ -43,7 +52,7 @@
   "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "800",
   "id": "dogStore",
   "language": "JavaScript",
   "left": "0",
