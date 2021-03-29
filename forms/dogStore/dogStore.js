@@ -1,11 +1,12 @@
-let arr = ['Crocheted Dog Toy', '$10.00', 'Slow Feeder Bowl', '$14.00', 'Pawz Grey Treat Jar', '$20.00', 'Blue Sweet Dreams Thermal Pajamas', '$30.00', 'Checker Chewy Vuiton Bowl', '$32.00', 'Red Heart Sweater Dress', '$27.00', 'Velvet Hair Bow - Sun Kissed', '$12.00', 'Into the Wild Leash', '$27.00']
-let len = arr.length
+let products = ['Crocheted Dog Toy', 'Slow Feeder Bowl', 'Pawz Grey Treat Jar', 'Blue Sweet Dreams Thermal Pajamas', 'Checker Chewy Vuiton Bowl', 'Red Heart Sweater Dress', 'Velvet Hair Bow - Sun Kissed', 'Into the Wild Leash']
+let prices = ['$10.00', '$14.00', '$20.00', '$30.00', '$32.00', '$27.00', '$12.00', '$27.00']
+let len = prices.length
 lblList.value =  ''
 let i = 0
 
 dogStore.onshow=function() {
-  for(i = 0; i < len; i = i + 2){
-   lblList.value = `${lblList.value} ${arr[i]}\n`
+  for(i = 0; i < len; i ++){
+   lblList.value = `${lblList.value} ${products[i]}: ${prices[i]}\n`
    }
 }
 
