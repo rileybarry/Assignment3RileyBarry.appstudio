@@ -52,7 +52,7 @@
   "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
+  "height": "800",
   "id": "dogStore",
   "language": "JavaScript",
   "left": "0",
