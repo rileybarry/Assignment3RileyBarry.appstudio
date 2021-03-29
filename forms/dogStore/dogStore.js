@@ -2,8 +2,6 @@ let arr = ['Crocheted Dog Toy', '$10.00', 'Slow Feeder Bowl', '$14.00', 'Pawz Gr
 len = arr.length
 lblList.value =  ''
 let i = 0
-let wishList = []
-
 
 dogStore.onshow=function() {
   for(i = 0; i < len; i = i + 2){
@@ -11,3 +9,12 @@ dogStore.onshow=function() {
    }
 }
 
+let wishList = []
+let len2 = wishList.length
+
+btnPet.onclick=function(){
+  wishList = wishList.push(inpPet.value)
+  for(i = 0; i < len; i = i + 2){
+   lblTwo.value = `${lblTwo.value} ${wishList[i]}\n`
+   }
+}
